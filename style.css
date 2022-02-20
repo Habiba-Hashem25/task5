@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@300&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Tajawal', sans-serif;
+}
+nav{
+    height:10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0px auto;
+    padding: 0 80px;
+}
+nav .fa-bars
+{
+display: none;
+}
+nav .logo
+{
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+}
+nav .logo i
+{
+    color: blueviolet;
+    padding-left: 0.75rem;
+}
+nav .logo h4
+{
+    font-family: 'Lalezar', cursive;
+
+}
+nav .nav-items
+{
+    display: flex;
+    list-style-type: none;
+
+}
+nav  .nav-items .nav-item
+{
+    padding: 0 32px; 
+}
+nav .nav-link
+{
+    text-decoration: none;
+    color: #4e547e;
+    font-size: 22.4px;
+}
+nav .nav-link:hover
+{
+    color: #c0a5e4;
+}
+ .hero 
+{
+    background-color: #e3e3e9;
+}
+ .hero-section
+{
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.hero-section .content
+{
+    display: flex;
+    flex-direction: column ;
+}
+.hero-section h4
+{
+    color: #6e0aef;
+    font-size: 25.6px;
+    margin-bottom: 32px;
+}
+.hero-section .content h1
+{
+font-size: 41.6px;
+margin-bottom: 16px;
+}
+.hero-section p 
+{
+color: rgb(29, 29, 29);
+font-size: 22.4px;
+}
+.hero-section p span
+{
+color: #6e0aef;
+}
+ .btn
+{
+    width: 160px;
+    margin-top: 48px;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 12px 24px;
+    background-color: #6e0aef;
+}
+.btn:hover
+{
+    background-color: #7b25ec;
+    cursor: pointer;
+}
+.btn a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 22.4px;
+}
+section.features
+{
+    padding: 32px 0;
+    background-color: #e3e3e9;
+}
+section.features .features-section
+{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.features-section h4
+{
+color: #6e0aef;
+font-size: 25.6px;
+margin-bottom: 32px;
+}
+.features-section .qualities
+{
+    display: flex;
+    justify-content: space-between;
+}
+.features-section .qualities .quality
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 32px;
+    max-width: 272px;
+    border-radius: 16px;
+    margin: 16px;
+}
+.features-section .qualities .quality:hover{
+    border: 2px solid #6e0aef;
+}
+.qualities .quality i{
+    font-size: 32px;
+    color: #6e0aef;
+    margin-bottom: 16px;
+}
+.qualities .quality h3{
+    font-size: 25.6px;
+    margin-bottom: 16px;
+}
+.qualities .quality p{
+    font-size: 19.2px;
+    text-align: center;
+    color: #4e547e;
+}
+.newest-phones
+{
+    padding-top: 80px;
+}
+.newest-phones .phones-sections
+{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+}
+.phones-sections h4{
+    color: #6e0aef;
+    font-size: 25.6px;
+    margin-bottom: 32px;
+}
+.phones-sections .phones
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: flex-start;
+}
+.phones .phone
+{
+    margin: 32px 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone img{
+    margin-bottom: 16px;
+}
+ .phone img:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.phone h3
+{
+    font-size: 25.6px;
+}
+.phones-sections button
+{
+    width: 240px;
+    align-self: center;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+footer
+{
+    background-color: #e3e3e9;
+    height: 15vh;
+    margin-top: 80px;
+    padding: 32px 0;
+}
+.footer-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.footer-section p{
+    font-size: 19.2px;
+    margin-bottom: 16px;
+}
+.footer-section .socails
+{
+    margin-bottom: 16px;
+}
+.footer-section .socails i{
+    padding: 0 8px;
+    font-size: 25.6px;
+}
+.footer-section .socails i:hover
+{
+    color: #6e0aef;
+    cursor: pointer;
+}
+
+@media (max-width:1300px)
+{
+*
+{
+    font-size: 85%;
+}
+}
+@media (max-width:1170px)
+{
+*
+{
+    font-size: 80%;
+}
+}
+@media (max-width:1000px)
+{
+*
+{
+    text-align: center;
+}
+.hero img {
+display: none;
+}
+.hero-section
+{
+    align-items: center;
+    padding: 32px 0;
+    width: 50%;
+}
+.hero .btn
+{
+    align-self: center;
+}
+.hero .content
+{
+    margin-top: 32px;
+}
+.features-section .qualities
+{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.features .features-section
+{
+    align-items: center;
+}
+.hero-section
+{
+    height: 70vh;
+}
+}
+@media (max-width:660px) {
+    .hero-section .content h1
+    {
+        font-size: 32px;
+    }
+    .phones-sections
+    {
+        align-items: center;
+    }
+    .phones-sections .phones
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@media (max-width:500px) {
+    
+    .phones-sections .phones
+    {
+        grid-template-columns: 1fr ;
+
+    }
+    nav {
+        position: sticky;
+        top: 0;
+        width :100%
+    }
+    nav .fa-bars
+    {
+        display: block;
+        font-size: 48px;
+    }
+    nav .nav-items{
+        position: absolute;
+        left: 0;
+        top:10vh;
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #6e0aef;
+        padding: 32px 0;
+    }
+    nav .nav-items.active
+    {
+        display: flex;
+    }
+    nav .nav-items .nav-item
+    {
+        margin: 16px 0;
+    }
+    nav .nav-items .nav-item a {
+        color: white;
+
+    }
+}
